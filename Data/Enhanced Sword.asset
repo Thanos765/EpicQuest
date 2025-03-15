@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95e0705c6214824093989714e3ffda7, type: 3}
+  m_Name: Enhanced Sword
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Enhanced Sword
+  <Description>k__BackingField: A slightly better sword. +2 damage
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 0ec53ffe334f4b2408e91ea33cdcb0f0, type: 3}
+  <DefaultParametersList>k__BackingField:
+  - itemParameter: {fileID: 11400000, guid: 091cf152930403342bc4457c4c54c76d, type: 2}
+    value: 100
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: 1e4d438f9d286304b918672a47cba77f, type: 3}
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: f3bd8989ea153b5448700ce26bbe43f5, type: 2}
+    value: 3
